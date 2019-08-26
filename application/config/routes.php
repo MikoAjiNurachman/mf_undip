@@ -53,8 +53,8 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['surat'] = 'surat/index';
+$route['surat/'] = 'surat/index';
 
-$route['pejabat'] = 'pejabat/index';
+$route['pejabat/'] = 'pejabat/index';
 
-$route['arsip'] = 'arsip/index';
+$route['arsip/'] = 'arsip/index';
