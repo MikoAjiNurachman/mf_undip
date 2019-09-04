@@ -75,9 +75,31 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'mf_undip',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT != 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
+
+$db['default'] = array(
+	'dsn'	=> '',
 	'hostname' => 'ec2-50-17-246-114.compute-1.amazonaws.com',
 	'username' => 'pkemmijwxqzrwl',
-	'password' => '3c7a06b41aa13a9777f3246fccae9eeef2baec7aede070895b03b28800c0989f',
+	'password' => '',
 	'database' => 'd8hh3jns17ji1c',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
