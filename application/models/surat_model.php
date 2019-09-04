@@ -30,7 +30,7 @@ class surat_model extends CI_Model
     private function uploadFile()
     {
         $config['upload_path']          = './upload/';
-        $config['allowed_types']        = 'docx|pdf';
+        $config['allowed_types']        = 'docx|pdf|doc|xsx|csv';
         $config['file_name']            = $this->no_surat;
         $config['overwrite']            = true;
     // $config['max_size']             = 1024; // 1MB

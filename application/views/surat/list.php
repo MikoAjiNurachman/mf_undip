@@ -107,7 +107,7 @@
                     <td><?= $data->penerima?></td>
                     <td>
                       
-                        <a target="_blank" href="<?= base_url('upload/'.$data->file_surat);?>"><i class="fas fa-envelope-open"> Preview</i></a>
+                        <a target="_blank" href="<?= base_url('upload/'.$data->file_surat);?>"><i class="fas fa-download"> Download</i></a>
                       </td>
                     <td>
                       <a href="<?php echo base_url('surat/edit/'.$data->no_surat) ?>"
